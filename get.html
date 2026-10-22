@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Get Tower Tap: World Heights</title>
+<meta name="description" content="Play Tower Tap free on iPhone, iPad and Android. Can you build higher?">
+<link rel="icon" href="icon.png">
+<style>body{font:16px/1.6 -apple-system,Segoe UI,Roboto,sans-serif;max-width:560px;margin:0 auto;padding:40px 16px;color:#1f2a3d;background:#f4f8fb;text-align:center}img{border-radius:22px}h1{font-size:28px;margin:16px 0 4px}a.b{display:block;margin:12px auto;max-width:320px;padding:14px 18px;border-radius:14px;background:#1f2a3d;color:#fff;font-weight:700;text-decoration:none}a.b.g{background:#f2a516;color:#1f2a3d}small{color:#5a6478}</style>
+</head><body>
+<img src="icon.png" width="96" height="96" alt="Tower Tap app icon">
+<h1>Tower Tap: World Heights</h1>
+<p>Stack floors, pass famous landmarks and build all the way to the planets. Free to play.</p>
+<a class="b" id="ios" href="https://apps.apple.com/app/id6822339744">Download on the App Store</a>
+<a class="b g" id="android" href="https://play.google.com/store/apps/details?id=com.encircletechnologies.towertap">Get it on Google Play</a>
+<p><small>Opening your store... If nothing happens, tap your store above.</small></p>
+<p><small><a href="index.html">About the game</a> · <a href="privacy.html">Privacy</a></small></p>
+<script>
+// Send phones straight to their store; everyone else sees both buttons. No tracking, no cookies.
+(function () {
+  var ua = navigator.userAgent || '', ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  var to = ios ? document.getElementById('ios').href : /Android/.test(ua) ? document.getElementById('android').href : null;
+  if (to) location.replace(to);
+})();
+</script>
+</body></html>
